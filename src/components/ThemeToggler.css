@@ -1,0 +1,15 @@
+.theme-toggler {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.theme-toggler:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .nav-item:hover {
+    border-bottom: none!important;
+  }
+}

@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin-bottom: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.nav-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.toggler {
+  padding-top: 0;
+}

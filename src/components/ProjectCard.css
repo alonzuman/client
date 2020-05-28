@@ -1,0 +1,34 @@
+.project-card-background {
+  position: absolute;
+  padding: 4rem;
+  background-color: #000000de;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.project-card {
+  background-color: white;
+  position: relative;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-card .close-button {
+  color: white;
+}
+
+.close-button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .project-card-background {
+    padding: 1rem;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+}

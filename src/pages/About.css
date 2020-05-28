@@ -1,0 +1,21 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-content {
+  padding-right: 2rem;
+}
+
+.about-photo {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 760px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
